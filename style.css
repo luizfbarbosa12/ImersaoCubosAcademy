@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    
+    
+}
+
+header {
+    background-color: #FFFFFF ;
+    padding: 32px 64px;
+    background-image: url(https://images.unsplash.com/photo-1473773508845-188df298d2d1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&h=500&q=60);
+    background-repeat: no-repeat;
+    background-size: 1685.5px 374.2px;   
+}
+ 
+body {
+    background-color: #97b6ac;
+}
+
+main {
+    padding: 40px 70px;
+    display: flex;
+    
+}
+
+ul, ol {
+    list-style-type: none;
+    padding: 0;
+}
+h3{
+    font-weight: normal;
+    font-size: 16px;
+
+}
+h1 {
+    font-weight: normal;
+    font-size: 48px;
+    color: white;
+}
+h1 span {
+    font-weight: bold;
+    color: white;
+}
+
+footer {
+    background-color: #14004d;
+    color: white;
+    padding: 57.6px;
+    text-align: center;
+
+}
+
+.coluna-menor li {
+    margin-top: 32px;
+    display: flex;
+}
+
+.formacao {
+    margin-top: 32px;
+}
+
+.linha {
+    width: 80px;
+    border-top: 2px solid;
+    margin-top: 8px;
+}
+
+.experiencias .linha {
+    border-color: #4200ff;
+}
+
+.formacao .linha {
+    border-color: #ffc700;
+}
+
+.profissao {
+    font-size: 16px;
+}
+
+.coluna-menor {
+    margin-top: 48px;
+    width: 288px;
+}
+
+.coluna-menor img{
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    margin-right: 8px;
+
+}
+
+.conteudo {
+    display: inline-block;
+}
+
+.dados {
+    display: inline-block;
+    margin-bottom: 16px;
+}
+
+.foto {
+    border-radius: 50%;
+    border: 4px solid #081712;
+    height: 400px;
+    width: 200px;
+    margin-bottom: -120px;
+    margin-right: 24px;
+}
+.t60{
+    color: #324b51;
+    letter-spacing: 0.1em;
+}
+
+.coluna-maior {
+    margin-left: 24px;
+}
+.coluna-maior h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    margin-left: 16px;
+
+}
+
+.habilidade {
+    background-color: #324b51;
+    border-radius: 16px;
+    padding: 24px;
+    margin: 12px;
+    width: 288px;
+
+}
+
+.habilidade li {
+    margin-top: 24px;
+}
+
+.habilidade li:first-child {
+    margin-top: 0;
+}
+
+.habilidade h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+
+}
+.habilidades {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.habilidade p {
+    font-size: 16px;
+    color: #97b6ac;
+    letter-spacing: 0.1em;
+}
+
+.progresso {
+    width: 100%;
+    display: flex;
+}
+
+.barra {
+    width: 20%;
+    height: 4px;
+    background-color: #97b6ac;
+    margin-top: 8px;
+}
+
+.incompleto {
+    opacity: 0.2;
+}
+
+.projeto {
+    width: 392px;
+    padding: 24px;
+    background-color: #324b51;
+    border-radius: 8px;
+    margin: 12px;
+}
+
+.projeto h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.projeto p {
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.projetos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projeto a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #97b6ac;
+    color: black;
+    padding: 8px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.projeto img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* marketing@cubos.academy - enviar pra esse email */
