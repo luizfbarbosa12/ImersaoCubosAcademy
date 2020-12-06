@@ -106,7 +106,7 @@ footer {
     border-radius: 50%;
     border: 4px solid #081712;
     height: 400px;
-    width: 200px;
+    width: auto;
     margin-bottom: -120px;
     margin-right: 24px;
 }
